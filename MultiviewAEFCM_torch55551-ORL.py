@@ -628,13 +628,3 @@ if __name__ == '__main__':
     print("mean_acc={},mean_nmi={},mean_purity={}\n".format(np.mean(acc_list),np.mean(nmi_list),np.mean(purity_list)))
 
 
-'''
-说明：
-1.若有多个视图，请修改    DeepMultiviewFuzzyKMeans(data, labels, [data.shape[0], 128, 100], lam=lam, lam2=1e5, fuzziness = 1.5, batch_size=64, lr=1e-7,num_views=1) 中的
-num_views
-2.根据视图数，在  self.membership, _, _ = self.fcm_multiview_0([self.X,Z], self.membership, self.n_clusters, fuzziness=self.fuzziness) 中的第一个参数添加输入多视图数据，如此处代码
-中[self.X,Z] 表示以输入数据X和嵌入特征Z作为输入，即视图数为2
-3.修改训练AE的数据输入， loss = self._build_loss(x,[x,z], u, recons_x)  如此处为批处理数据中的x和z，表示两个视图数据。
-4.修改聚类结果计算的数据输入，self.membership,_,obj= self.fcm_multiview_0([self.X,Z],self.membership,self.n_clusters,fuzziness=self.fuzziness)，此处与第2步要求一致
-
-'''
