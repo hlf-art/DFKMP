@@ -23,7 +23,7 @@ numpy==1.19.2
 scipy==1.13.1 
 ```
 ## The Core Code
-Using P-net to get pseudo-category features：[Alt](https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L254  "[title](https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L254 )")
+Using P-net to get pseudo-category features：[https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L254 ](https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L254  "[title](https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L254 )")
 
 Calculate the similarity between samples：https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L451C1-L452C1 
 
