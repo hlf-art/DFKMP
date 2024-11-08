@@ -30,4 +30,8 @@ python MultiviewAEFCM_torch55551-ORL.py
 * data_loader.py: load data from matlab files (*.mat).
 * utils.py: functions used in experiemnts.
 * metric.py: codes for evaluation of clustering results.
+* functions.py: Calculate the similarity between samples.
+* util.py: Calculating pseudo-label loss.
 ```
+## Author of Code
+If you have issues, please email: hlf4975035@163.com
