@@ -38,12 +38,6 @@ Samples to run the code is given as follows:
 if __name__ == '__main__':
     import data_loader as loader
 
-    #torch.manual_seed(123456)  # 设置随机种子
-    # data, labels = loader.load_data(loader.JAFFE)
-    # data, labels = loader.load_UMIST()
-    # data, labels = loader.load_cifar10()
-    # data, labels = loader.load_USPS()
-    # data, labels = loader.load_YALE()
     data, labels = loader.load_ORL()
 
     data = data.T
@@ -65,5 +59,6 @@ if __name__ == '__main__':
         data_echart.append(np.mean(acc_list))
         print(data_echart)
 ```
+When running different datasets, please adjust the parameters to be consistent with the paper
 ## Author of Code
 If you have issues, please email: hlf4975035@163.com
