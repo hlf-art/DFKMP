@@ -38,11 +38,6 @@ source activatie [Environment Name]
 python MultiviewAEFCM_torch55551-ORL.py
 ```
 
-## Testing
-Execute the command in the home directory：
-```python
-python  metric.py
-```
 ## Brief Introduction
 ```python  
 * DFKM.py: the main source code of DMFKM.
