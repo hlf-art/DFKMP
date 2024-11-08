@@ -6,11 +6,17 @@
 
 ## Datasets:
 CIFAR10 in http://www.cs.toronto.edu/~kriz/cifar.html. 
-ORL in ORL_32.mat.   
+
+ORL in ORL_32.mat. 
+
 YALE in Yale_32x32.mat 
+
 JAFFE in JAFFE.mat 
+
 UMIST in UMIST.mat 
+
 USPS in USPSdata_20_uni.mat 
+
 |Name| Size| Dimensionality|Class|
 | --- | --- | --- | --- | 
 |ORL| 400 |1024| 40 |
