@@ -1,4 +1,4 @@
-# DFKMP
+# Deep Multi-semantic Fuzzy K-Means with Adaptive Weight Adjustment (DFKMP)
 ## datasets:
 dataset ORL in ORL_32.mat. You can train and test on the ORL dataset
 |Name| Size| Dimensionality|Class|
@@ -9,4 +9,6 @@ dataset ORL in ORL_32.mat. You can train and test on the ORL dataset
 |UMIST| 575| 1024 |20|
 |USPS |2000 |256| 10|
 |CIFAR10 |60,000 |300| 10|
-
+## Installation
+required packages:
+'adafdsa'
