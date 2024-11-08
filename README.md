@@ -1,7 +1,7 @@
 # Deep Multi-semantic Fuzzy K-Means with Adaptive Weight Adjustment (DFKMP)
 
 ## Datasets:
-dataset ORL in ORL_32.mat. 
+dataset ORL in ORL_32.mat.  
 |Name| Size| Dimensionality|Class|
 | --- | --- | --- | --- | 
 |ORL| 400 |1024| 40 |
@@ -32,6 +32,12 @@ Execute the command in the home directory：
 ```python
 source activatie [Environment Name]
 python MultiviewAEFCM_torch55551-ORL.py
+```
+
+## Testing
+Execute the command in the home directory：
+```python
+python  metric.py
 ```
 ## Brief Introduction
 ```python  
