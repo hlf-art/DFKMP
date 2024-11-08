@@ -45,7 +45,7 @@ python MultiviewAEFCM_torch55551-ORL.py
 * utils.py: functions used in experiemnts.
 * metric.py: codes for evaluation of clustering results.
 * functions.py: Calculate the similarity between samples.
-* util.py: Calculating pseudo-label loss.
+* util.py: Calculate pseudo-label loss.
 ```
 Samples to run the code is given as follows:
 ```python
