@@ -1,5 +1,5 @@
 # Deep Multi-semantic Fuzzy K-Means with Adaptive Weight Adjustment (DFKMP)
-## datasets:
+## Datasets:
 dataset ORL in ORL_32.mat. You can train and test on the ORL dataset
 |Name| Size| Dimensionality|Class|
 | --- | --- | --- | --- | 
