@@ -1,7 +1,7 @@
 # Deep Multi-semantic Fuzzy K-Means with Adaptive Weight Adjustment (DFKMP)
 
 (a)–(c) show the segmentation results of DFKM, while (d)–(f) present the results from DFKMP
-![20241108224513](https://github.com/user-attachments/assets/a75c3831-b940-4706-8b93-d78f87fb575b)
+![20241108224513](https://github.com/user-attachments/assets/a75c3831-b940-4706-8b93-d78f87fb575b).
 
 
 ## Datasets:
