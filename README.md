@@ -15,4 +15,9 @@ required packages:
 for i or range(10):  
     print(i)  
 ```
-
+##Training
+Execute the command in the home directory：
+```python
+source activatie [Environment Name]
+python MultiviewAEFCM_torch5555-ORL.py
+```
