@@ -14,11 +14,13 @@ required packages:
 ```python  
 torch==1.10.1
 torchvision==0.11.2
-python==3.9.12 
+python==3.9.12
+numpy==1.19.2
+scipy==1.13.1 
 ```
 ##Training
 Execute the command in the home directory：
 ```python
 source activatie [Environment Name]
-python MultiviewAEFCM_torch5555-ORL.py
+python MultiviewAEFCM_torch55551-ORL.py
 ```
