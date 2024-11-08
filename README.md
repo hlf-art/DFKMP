@@ -27,7 +27,7 @@ python MultiviewAEFCM_torch55551-ORL.py
 ## Brief Introduction
 ```python  
 * DFKM.py: the main source code of DMFKM.
-data_loader.py: load data from matlab files (*.mat).
-utils.py: functions used in experiemnts.
-metric.py: codes for evaluation of clustering results.
+* data_loader.py: load data from matlab files (*.mat).
+* utils.py: functions used in experiemnts.
+* metric.py: codes for evaluation of clustering results.
 ```
