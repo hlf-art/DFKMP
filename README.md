@@ -12,8 +12,9 @@ dataset ORL in ORL_32.mat. You can train and test on the ORL dataset
 ## Installation
 required packages:
 ```python  
-for i or range(10):  
-    print(i)  
+torch==1.10.1
+torchvision==0.11.2
+python==3.9.12 
 ```
 ##Training
 Execute the command in the home directory：
