@@ -23,9 +23,9 @@ numpy==1.19.2
 scipy==1.13.1 
 ```
 ## The Core Code
-Using P-net to get pseudo-category features：https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L254
-Calculate the similarity between samples：https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L451C1-L452C1
-Update the fuzzy membership matrix： https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L455C13-L455C118
+Using P-net to get pseudo-category features：https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L254< br >
+Calculate the similarity between samples：https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L451C1-L452C1< br >
+Update the fuzzy membership matrix： https://github.com/hlf-art/DFKMP/blob/b487156765d08335f6c1ad673ddec76b040c59a2/MultiviewAEFCM_torch55551-ORL.py#L455C13-L455C118< br >
 
 ## Training
 Execute the command in the home directory：
