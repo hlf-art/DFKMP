@@ -33,5 +33,37 @@ python MultiviewAEFCM_torch55551-ORL.py
 * functions.py: Calculate the similarity between samples.
 * util.py: Calculating pseudo-label loss.
 ```
+Samples to run the code is given as follows:
+```python
+if __name__ == '__main__':
+    import data_loader as loader
+
+    #torch.manual_seed(123456)  # 设置随机种子
+    # data, labels = loader.load_data(loader.JAFFE)
+    # data, labels = loader.load_UMIST()
+    # data, labels = loader.load_cifar10()
+    # data, labels = loader.load_USPS()
+    # data, labels = loader.load_YALE()
+    data, labels = loader.load_ORL()
+
+    data = data.T
+    a11 = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1e5, 1e8, 1e10, 1e15]
+    data_echart = []
+    for index, lam3 in enumerate(a11):
+
+        acc_list, nmi_list, purity_list = [], [], []
+
+        for i in range(10):
+            lam = 0.001
+            lam2 = 50
+            fuzziness = 1.14
+            lr = 1e-08
+            print('lam={} lam2={} fuzziness={}'.format(lam,lam2,fuzziness))
+            dfkm = DeepMultiviewFuzzyKMeans(data, labels, [data.shape[0], 256, 128], lam=lam, lam2=lam2,lam3=lam3, fuzziness = fuzziness, batch_size=128, lr=lr,num_views=3)
+            acc,nmi,purity = dfkm.run()
+            acc_list.append(acc),nmi_list.append(nmi),purity_list.append(purity)
+        data_echart.append(np.mean(acc_list))
+        print(data_echart)
+```
 ## Author of Code
 If you have issues, please email: hlf4975035@163.com
