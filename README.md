@@ -11,4 +11,4 @@ dataset ORL in ORL_32.mat. You can train and test on the ORL dataset
 |CIFAR10 |60,000 |300| 10|
 ## Installation
 required packages:
-'adafdsa'
+'''adafdsa'''
