@@ -1,8 +1,4 @@
 # Deep Multi-semantic Fuzzy K-Means with Adaptive Weight Adjustment (DFKMP)
-## Method
-![20241108224513](https://github.com/user-attachments/assets/a3f61ddc-6910-43bf-9b57-2e967d996eda)
-
-
 
 ## Datasets:
 dataset ORL in ORL_32.mat. 
