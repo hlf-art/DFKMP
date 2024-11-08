@@ -21,7 +21,7 @@ import scipy.io as scio
 from skimage import io, color
 from scipy.sparse import coo_matrix
 from functions import get_dim, forward, comp_simi
-from util import create_logger, AverageMeter, Logger, clustering_acc, WeightedBCE, accuracy, save_checkpoint, load_checkpoint
+from util import WeightedBCE
 from AutomaticWeighted import AutomaticWeightedLoss
 from keras.preprocessing.image import ImageDataGenerator
 
